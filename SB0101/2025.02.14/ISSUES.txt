@@ -1,0 +1,18 @@
+Main board
+
+1. u11,d1 on main board decal don't match
+2. q7, q12, r46 not populated
+3. remove R5
+4. remove R48
+5. R10 is 0Ohm
+6. R69 is 85k
+7. U11 is TLV8811DBVR
+8. D1 is SMF58A
+
+Motor board
+
+1. q1, q4 on motor board decal don't match
+2.
+
+Insert board
+1. remove the connection for pin3(the middle pin on both sides)

@@ -6,3 +6,4 @@
 6. add pull up for boot
 8. Q3 use low V-gs and low Rds-on FET
 9, Try remove Q2, Q7, Q39
+10.accint add pull up

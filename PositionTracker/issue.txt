@@ -1,0 +1,4 @@
+for 1 aa battery design
+	TPS61299 (<1uA Iq, >70% efficiency at full current range, single AA boost to 3.3, 350mA load(3.34v to 3.25V drop) )
+	PHK04P02T,518
+	MCH3383-TL-H
