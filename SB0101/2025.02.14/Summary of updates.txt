@@ -1,0 +1,71 @@
+Hey guys, i am starting the next Rev of all PCBA for SmartBlind. Please check the updates that i summarized, and add if necessary
+
+
+Control box
+	Main board
+		Electronics:
+			1. u11,d1 on main board decal don't match
+			2. q7, q12, r46 not populated
+			3. remove R5
+			4. remove R48
+			5. R10 is 0Ohm
+			6. R69 is 850k
+			7. U11 is TLV8811DBVR
+			8. D1 is SMF58A
+			9. Use solder pads rather than connectors for the cord going to motor box
+		Mechanical:
+		Firmware:
+			1. Use IIC instead of UART for the communication to motor box.
+		ID:
+		Supply Chain:
+			1. Use CJST connectors for all.
+			
+
+	Button board.
+		Electronics:
+		Mechanical:
+		Firmware:
+		ID:
+		Supply Chain:
+			1. Use CJST connectors for all.
+
+Motor Box
+	Motor board
+		Electronics:
+			1. q1, q4 on motor board decal don't match
+		Mechanical:
+			1. Turn the connectors for LED board and Encoder board 90 degrees, facing down. 
+		Firmware:
+			1. Change the MSP MCU to ?? @Vincent
+			2. Use IIC instead of UART for the communication to motor box.
+		ID:
+		Supply Chain:
+			1. Use CJST connectors for all.
+
+	Encoder board
+		Electronics:
+		Mechanical:
+		Firmware:
+		ID:
+		Supply Chain:
+			1. Use CJST connectors for all.
+	Insert board
+		Electronics:
+			1. Use 5p header that has pitch of 2.54mm, hole size is 1.0+mm  
+		Mechanical:
+			1. Change the width of it duo to the 2.54mm pitch header
+			2. Make the insert shorter by 2mm. 
+		Firmware:
+			1. Make insert for Programming
+		ID:
+		Supply Chain:
+			1. Use CJST connectors for all.
+
+	LED board
+		Electronics:
+		Mechanical:
+		Firmware:
+		ID:
+		Supply Chain:
+			1. Use CJST connectors for all.
+
