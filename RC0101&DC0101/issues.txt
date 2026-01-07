@@ -1,1 +1,0 @@
-use mosfet to turn on LEDs,  use green LED instead
